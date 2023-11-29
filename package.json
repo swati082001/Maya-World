@@ -1,12 +1,11 @@
 {
-  "homepage": "https://swati082001.github.io/mayan-world",
   "name": "maya-world",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --base /mayan-world/",
-    "build": "vite build --base /mayan-world/",
+    "dev": "vite",
+    "build": "vite build",
     "clean": "rimraf dist",
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
