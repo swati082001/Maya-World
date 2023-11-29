@@ -7,6 +7,5 @@ export default defineConfig({
     chunkSizeWarningLimit: 1100, // Set your desired limit in kilobytes
   },
   plugins: [react()],
-  assetsInclude:['**/*.glb'],
-  base:"/mayan-world/"
+  assetsInclude:['**/*.glb']
 })
